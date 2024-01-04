@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "api-stuff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.38.4",
+    "axios": "^1.6.0",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.14.2"
+  }
+}
