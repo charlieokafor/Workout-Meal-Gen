@@ -5,12 +5,12 @@ import fetch from 'node-fetch';
 import OpenAIApi from "openai"; // Make sure to install openai using `npm install openai`
 
 const supabaseUrl = 'https://ibmmpatcurdnxkyrxaft.supabase.co';
-const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlibW1wYXRjdXJkbnhreXJ4YWZ0Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTY5Njc5MzIxOSwiZXhwIjoyMDEyMzY5MjE5fQ.7GfE2YXfY5fCSjYIPI9klEk29Yxp3hieggmkSAJf7xM';
+const supabaseKey = 'Enter Supabase Key';
 
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 // Initializing openAi
-const openaiApiKey = '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';
+const openaiApiKey = 'Open Ai Key';
 const openai = new OpenAIApi({ apiKey: openaiApiKey, dangerouslyAllowBrowser: true });
 
 const app = express();
